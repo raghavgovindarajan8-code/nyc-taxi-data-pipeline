@@ -1,0 +1,48 @@
+
+NYC Taxi Data Pipeline Workflow
+
+1. Read trip data (Snowflake simulated)
+
+↓
+
+2. Read taxi zone lookup table
+
+↓
+
+3. Remove duplicate records
+
+↓
+
+4. Convert pickup/dropoff timestamps
+
+↓
+
+5. Calculate trip duration
+
+↓
+
+6. Remove invalid passenger counts
+
+↓
+
+7. Remove invalid fare amounts
+
+↓
+
+8. Remove invalid trip distances
+
+↓
+
+9. Merge lookup table
+
+↓
+
+10. Save cleaned dataset (ADLS simulated)
+
+↓
+
+11. Generate pipeline logs
+
+↓
+
+12. Pipeline completed
